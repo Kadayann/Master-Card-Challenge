@@ -1,0 +1,13 @@
+﻿Base,Flag,Linhas,Pct
+Clientes,flag_sem_atividade,85,4.34
+Cartões,flag_sem_dono,469,11.71
+Transações,flag_cartao_vencido,2700,1.72
+Transações,flag_antes_ativacao,2131,1.36
+Transações,flag_debito_parcelado,6852,4.37
+Transações,flag_acima_do_limite,35,0.02
+PIX,flag_valor_impossivel,917,0.33
+PIX,flag_sem_data,418,0.15
+PIX,flag_sem_tipo,418,0.15
+PIX,flag_antes_da_conta,69427,24.89
+PIX,flag_normalizado,63707,22.84
+Investimentos,flag_vencimento_passado,188,0.89
