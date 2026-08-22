@@ -1,6 +1,5 @@
 # Dados derivados — gerados pelo notebook 2_limpeza_de_dados.ipynb
 bases_tratadas/
-TRATAMENTO.md
 relatorio_qualidade.csv
 relatorio_flags.csv
 cliente_360.csv
@@ -14,6 +13,3 @@ venv/
 
 # Sistema
 .DS_Store
-
-# Arquivos aposentados, aguardando remocao manual
-_to_delete/
