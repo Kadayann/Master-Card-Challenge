@@ -238,7 +238,7 @@ Métricas que podem ser adotadas: transações por cliente ativo por trimestre, 
 
 ---
 
-## 10. Síntese para a banca
+## 10. Síntese Final
 
 O problema. O Priceless Bank perdeu 14 pontos de share em um ano sem perder clientes. A carteira caiu
 3%; o uso caiu 48%.
