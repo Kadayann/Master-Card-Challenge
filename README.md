@@ -17,7 +17,7 @@ junho de 2025**.
 | # | Arquivo | O que faz |
 |---|---|---|
 | 1 | [`1_exploracao_inicial.ipynb`](1_exploracao_inicial.ipynb) | Primeiro olhar sobre as 5 bases: o que existe, quem é o cliente, onde está a queda, e três problemas de qualidade que condicionam todo o resto |
-| 2 | [`2_limpeza_de_dados.ipynb`](2_limpeza_de_dados.ipynb) | 30 decisões de tratamento, cada uma com o problema, a decisão, o porquê e **a alternativa descartada**. Regra: nenhuma linha é excluída — o que não tem conserto recebe uma coluna `flag_*` |
+| 2 | [`2_limpeza_de_dados.ipynb`](2_limpeza_de_dados.ipynb) | 28 decisões de tratamento, cada uma com o problema, o que foi feito e a alternativa descartada. Regra: nenhuma linha é excluída — o que não tem conserto recebe uma coluna `flag_*` |
 | 3 | [`3_validacao_de_hipoteses.ipynb`](3_validacao_de_hipoteses.ipynb) | 9 hipóteses testadas com veredito explícito. **Quatro não sobreviveram** — e duas refutações mudaram o alvo da recomendação |
 | 4 | [`4_conclusoes_e_recomendacoes.md`](4_conclusoes_e_recomendacoes.md) | Três frentes de ação priorizadas, roadmap, 8 KPIs com baseline e meta, e o que **não** fazer |
 
