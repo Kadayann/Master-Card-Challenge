@@ -1,6 +1,4 @@
 # 4 · Conclusões e Recomendações
-## Priceless Bank — Mastercard Challenge 2026 · Inteli
-
 ---
 
 ## 1. Diagnóstico em uma frase
