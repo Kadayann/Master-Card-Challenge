@@ -1,10 +1,9 @@
-# Recomendações e Proposta de Ação
-## Priceless Bank · Mastercard Advisors
+# 4 · Conclusões e Recomendações
+## Priceless Bank — Mastercard Challenge 2026 · Inteli
 
-**Mastercard Challenge 2026 · Inteli**
-
-Documento derivado de `Analise_Bases_Priceless_Bank.ipynb`, `Tratamento_Bases_Priceless_Bank.ipynb` e
-`Validacao_Hipoteses_Priceless_Bank.ipynb`. Todo número aqui tem origem rastreável nesses três arquivos.
+Documento derivado dos três notebooks deste repositório — `1_exploracao_inicial.ipynb`,
+`2_limpeza_de_dados.ipynb` e `3_validacao_de_hipoteses.ipynb`. **Todo número aqui tem origem
+rastreável nesses arquivos.**
 
 ---
 
