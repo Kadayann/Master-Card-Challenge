@@ -198,7 +198,6 @@ A Frente 1 é a que resolve a raiz, mas é a mais cara e a mais lenta.
 Etapa 1, "stop the bleeding"
 - Responder por que a emissão de cartão está em zero desde junho de 2025
 - Disparar a campanha sobre os 255 clientes com cadastro incompleto
-- Instrumentar os 8 KPIs da seção 7 com baseline congelado
 
 Etapa 2,  quick win
 - Cadastro completo em 97%
@@ -213,24 +212,6 @@ Etapa 3, reabrir a entrada
 Etapa 4, principalidade
 - Investimento convertido em limite de cartão
 - Meta de 25% dos clientes com crédito recorrente
-
----
-
-## 7. KPIs — baseline e meta
-
-| # | Indicador | Hoje | Meta 90d | Meta 12m | Frente |
-|---|---|---|---|---|---|
-| 1 | Clientes com crédito recorrente mensal | **4,3%** | 8% | **25%** | 1 |
-| 2 | Razão saída/entrada por PIX | **7,36×** | 6,5× | **4,0×** | 1 |
-| 3 | Novas contas por trimestre | **27** | 80 | **150** | 2 |
-| 4 | Cartões emitidos por cliente novo | **0,14** | 1,00 | **1,50** | 2 |
-| 5 | Cartões ativados em até 30 dias | **48,7%** | 65% | **80%** | 2 |
-| 6 | Cadastro completo | **87,0%** | **97%** | 99% | 3 |
-| 7 | Penetração de investimento | **51,2%** | 54% | **60%** | 3 |
-| 8 | Reprovação de PIX | **10,07%** | 6% | **<2%** | 4 |
-
-Métricas que podem ser adotadas: transações por cliente ativo por trimestre, hoje 7,1, teto histórico 13,7
-(2023). Recuperar o patamar de 2023 é o alvo de 24 meses.
 
 ---
 
