@@ -74,9 +74,6 @@ para fora.
 | 1.3 | Rendimento no saldo em conta | Remover o incentivo estrutural de tirar o dinheiro no mesmo dia |
 | 1.4 | Gatilho de retenção de saldo | Detectar o padrão "entrou e saiu em <24h" e acionar oferta no momento |
 
-A Meta é: Clientes com crédito recorrente mensal: 4,3% → 25% em 12 meses.
-Razão saída/entrada por PIX: 7,36× → 4,0×.
-
 Se pegarmos o Papaya bank (42,7% de principalidade) e LuminaPay (37,4%) lideram exatamente essa métrica
 no benchmarking. Principalidade é o que sustenta share.
 
@@ -101,10 +98,6 @@ nenhum. A emissão não secou por falta de demanda, secou porque a aquisição d
 | 2.2 | Abertura de conta 100% digital | Os dois concorrentes que mais cresceram (LuminaPay, Aurora) são digitais. O benchmarking associa canal físico a baixa maturidade digital |
 | 2.3 | Ativação assistida em 30 dias | Um em cada quatro cartões passa 7 meses parado |
 | 2.4 | Resgatar o produto Standard | 25,8% dos Standard nunca são ativados, o dobro do Platinum (9,0%). É o produto de entrada, e é o que mais falha |
-
-Meta: Novas contas por trimestre: 27 → 150 em 6 meses.
-Cartões emitidos por cliente novo: 0,14 → 1,50.
-Ativação em até 30 dias: 48,7% → 80%.
 
 Tamanho do vazamento atual. 450 cartões emitidos que nunca geraram uma transação (11,2% do
 portfólio) e 85 clientes cadastrados sem nenhuma movimentação em 3 anos.
@@ -134,9 +127,6 @@ o terreno onde o Aurora Bank saiu de 6% para 14% de share.
 | 3.3 | Investimento que vira limite de cartão | Amarra os dois produtos |
 | 3.4 | Cross-sell sobre os 695 sem investimento | Clientes que usam cartão mas não investem. |
 
-Nossa Meta é: Cadastro completo: 87,0% → 97% em 90 dias.
-Penetração de investimento: 51,2% → 60% em 12 meses.
-
 Potencial estimado. Se os 255 clientes convertessem à taxa da base (58%), seriam 147 novos
 investidores. Ao patrimônio mediano por investidor (R$ 52.122), isso representa ~R$ 7,7 milhões
 de captação, ordem de grandeza, não previsão. É a maior relação retorno/esforço de toda a lista.
@@ -153,8 +143,6 @@ aponta para falha de plataforma. São 28.085 falhas na cara do cliente.
 Portanto, consertar o PIX não trará os clientes de volta sozinho. É higiene competitiva contra
 um concorrente cuja maturidade digital é "Alta" na tabela do benchmarking, não é a alavanca de
 recuperação. Executar em paralelo, sem consumir a prioridade das Frentes 1 a 3.
-
-A Meta segue pra Reprovação de PIX: **10,07% → <2%**.
 
 ---
 
