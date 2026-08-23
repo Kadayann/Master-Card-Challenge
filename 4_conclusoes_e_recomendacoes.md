@@ -70,9 +70,8 @@ para fora.
 
 | # | O que fazer | Detalhe |
 |---|---|---|
-| 1.1 | Programa de domicílio de renda | Portabilidade de salário assistida, com incentivo condicionado à permanência do crédito por 3 ciclos |
-| 1.2 | Ativar Open Finance | O benchmarking mostra 44% a 82% dos clientes dos concorrentes já exportando dados. O Priceless não aparece nesse eixo |
-| 1.3 | **Rendimento no saldo em conta | Remover o incentivo estrutural de tirar o dinheiro no mesmo dia |
+| 1.2 | Ativar Open Finance | Permitir os clientes de trazer seu histórico, é mais um motivo pro Priceless se tornar o banco principal.|
+| 1.3 | Rendimento no saldo em conta | Remover o incentivo estrutural de tirar o dinheiro no mesmo dia |
 | 1.4 | Gatilho de retenção de saldo | Detectar o padrão "entrou e saiu em <24h" e acionar oferta no momento |
 
 A Meta é: Clientes com crédito recorrente mensal: 4,3% → 25% em 12 meses.
@@ -88,7 +87,7 @@ no benchmarking. Principalidade é o que sustenta share.
 Insight que sustenta (Hipótese 3 · refutada, e a refutação vale mais). A hipótese era que o cliente parou de
 pedir cartão por insatisfação. Os dados dizem o contrário:
 
-- 2023 é o ano de maior frequência da série (13,7 tx/trimestre), não o menor
+- 2023 é o ano de maior frequência da série (13,7 no trimestre), não o menor
 - a safra de 2023 fez 47,7 transações no primeiro ano, quase igual à de 2024 (50,4)  e 77% dela
   continua ativa três anos depois
 - cada safra só recebe cartão no ano em que entra. O cartão sai junto com a conta, não a pedido.
@@ -132,8 +131,8 @@ o terreno onde o Aurora Bank saiu de 6% para 14% de share.
 |---|---|---|
 | 3.1 | Campanha de recadastramento nominal | Lista de 255 clientes, todos já ativos e transacionando. Custo próximo de zero |
 | 3.2 | Revisar o fluxo de suitability | Medir onde o cliente abandona o preenchimento. Se 13% param, o formulário é o problema |
-| 3.3 | Investimento que vira limite de cartão | Replica o mecanismo com precedente comprovado (Aurora) e amarra os dois produtos |
-| 3.4 | Cross-sell sobre os 695 sem investimento | Clientes que usam cartão mas não investem. Penetração total hoje: 51,2% |
+| 3.3 | Investimento que vira limite de cartão | Amarra os dois produtos |
+| 3.4 | Cross-sell sobre os 695 sem investimento | Clientes que usam cartão mas não investem. |
 
 Nossa Meta é: Cadastro completo: 87,0% → 97% em 90 dias.
 Penetração de investimento: 51,2% → 60% em 12 meses.
@@ -196,23 +195,22 @@ A Frente 1 é a que resolve a raiz, mas é a mais cara e a mais lenta.
 
 ## 6. Roadmap
 
-30 dias, "stop the bleeding"
+Etapa 1, "stop the bleeding"
 - Responder por que a emissão de cartão está em zero desde junho de 2025
 - Disparar a campanha sobre os 255 clientes com cadastro incompleto
 - Instrumentar os 8 KPIs da seção 7 com baseline congelado
 
-90 dias,  quick win
+Etapa 2,  quick win
 - Cadastro completo em 97%
 - Onboarding de ativação de cartão em 30 dias, com resgate do produto Standard
-- Piloto de portabilidade de salário em 1 das 6 praças
+- Trazer o salário pro Princeless Bank
 
-180 dias, reabrir a entrada
+Etapa 3, reabrir a entrada
 - Abertura de conta 100% digital em produção
 - Open Finance ativo
 - Meta de 150 novas contas por trimestre
 
-360 dias, principalidade
-- Programa de domicílio de renda em escala
+Etapa 4, principalidade
 - Investimento convertido em limite de cartão
 - Meta de 25% dos clientes com crédito recorrente
 
@@ -241,10 +239,8 @@ Métricas que podem ser adotadas: transações por cliente ativo por trimestre, 
 O problema. O Priceless Bank perdeu 14 pontos de share em um ano sem perder clientes. A carteira caiu
 3%; o uso caiu 48%.
 
-A causa. A conta nunca foi a principal, sem salário, com 7,4× mais saída do que entrada e nenhum
+A conta nunca foi a principal, sem salário, com 7,4× mais saída do que entrada e nenhum
 cliente com fluxo positivo. Vínculo fraco esvazia sozinho. E a entrada de novos clientes parou: 27
 contas e zero cartões no último trimestre.
 
-A recomendação. Disputar principalidade, não transação. Três frentes em paralelo: trazer a renda
-(raiz), reabrir a entrada (urgência), destravar o investimento (quick win de R$ 7,7 mi com custo
-próximo de zero).
+Devemos disputar principalidade. Três frentes em paralelo: trazer a renda, reabrir a entrada e destravar o investimento.
