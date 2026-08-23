@@ -73,6 +73,32 @@ para fora.
 | 1.2 | Ativar Open Finance | Permitir os clientes de trazer seu histórico, é mais um motivo pro Priceless se tornar o banco principal.|
 | 1.3 | Rendimento no saldo em conta | Remover o incentivo estrutural de tirar o dinheiro no mesmo dia |
 | 1.4 | Gatilho de retenção de saldo | Detectar o padrão "entrou e saiu em <24h" e acionar oferta no momento |
+| 1.5 | Cashback por frequência no cartão | Pagar a migração de PIX para cartão no momento da compra, financiado pelo interchange |
+
+Como desenhar o incentivo do cartão. O cliente não parou de movimentar dinheiro, ele movimenta por
+PIX e para fora. O cartão não está competindo com "não gastar", está competindo com o PIX na hora
+da compra, e é essa troca de trilho que o incentivo precisa pagar. Vale notar que cashback é o
+primeiro diferencial que o benchmarking lista para o LuminaPay, o concorrente que saiu de 17% para
+30% de share no mesmo período em que caímos. Três decisões de desenho:
+
+- Prêmio por contagem, não por valor. Faixas em 5 e 10 compras no mês, com teto. É a mesma métrica
+  que usamos para medir o problema (transações por cliente ativo, hoje 7,1), e é a única base
+  confiável que temos: o valor da compra na base é sorteado entre R$ 0 e R$ 1.200, não observado,
+  então não há como calibrar faixa de gasto.
+- Vale para débito. A maior parte dos cartões da base é débito com limite zero. Um benefício
+  exclusivo de crédito não alcança quem precisamos alcançar.
+- O crédito cai no saldo da conta, não em pontos. Programa de pontos exige que o cliente entre num
+  portal que ele já não abre. O saldo é o único lugar por onde o dinheiro dele comprovadamente passa,
+  e creditar ali reforça a Frente 1.3.
+
+Quem paga a conta. Compra no cartão gera interchange para o emissor, PIX não gera. Cada transação
+migrada de PIX para cartão cria receita que hoje não existe, e é ela que financia o cashback. Isso
+também dá o teto natural da oferta: o incentivo não pode custar mais do que o interchange que a
+migração gera.
+
+Como saber se funcionou. Rodar com grupo de controle. Metade da base elegível recebe a oferta,
+metade não, e a leitura é transações por cliente ativo por trimestre entre os dois grupos. Sem
+holdout, qualquer alta vai ser creditada à campanha mesmo que fosse acontecer sozinha.
 
 Se pegarmos o Papaya bank (42,7% de principalidade) e LuminaPay (37,4%) lideram exatamente essa métrica
 no benchmarking. Principalidade é o que sustenta share.
@@ -169,11 +195,12 @@ funil não consegue corrigi-lo.
 |---|---|---|---|---|---|
 | 2 | Destravar a emissão de cartão |  Alto |  Baixo | 30 dias | **1ª** |
 | 3 | Recadastramento dos 255 |  Médio |  Baixo | 90 dias | **2ª** |
-| 1 | Programa de domicílio de renda |  Alto |  Alto | 12 meses | **3ª** |
-| 2 | Abertura de conta digital |  Alto |  Médio | 6 meses | **4ª** |
-| 3 | Investimento vira limite |  Alto | Médio | 9 meses | **5ª** |
-| 2 | Ativação assistida em 30 dias |  Médio |  Baixo | 90 dias | **6ª** |
-| 4 | Investigação técnica do PIX |  Médio |  Médio | 6 meses | **7ª** |
+| 1 | Piloto de cashback por frequência |  Alto |  Médio | 90 dias | **3ª** |
+| 1 | Programa de domicílio de renda |  Alto |  Alto | 12 meses | **4ª** |
+| 2 | Abertura de conta digital |  Alto |  Médio | 6 meses | **5ª** |
+| 3 | Investimento vira limite |  Alto | Médio | 9 meses | **6ª** |
+| 2 | Ativação assistida em 30 dias |  Médio |  Baixo | 90 dias | **7ª** |
+| 4 | Investigação técnica do PIX |  Médio |  Médio | 6 meses | **8ª** |
 | 5 | Contrato de dados |  Médio |  Médio | contínuo | **paralelo** |
 
 As duas primeiras são alto retorno e baixo esforço. 
@@ -190,6 +217,7 @@ Etapa 1, "stop the bleeding"
 Etapa 2,  quick win
 - Cadastro completo em 97%
 - Onboarding de ativação de cartão em 30 dias, com resgate do produto Standard
+- Piloto de cashback por frequência, com grupo de controle
 - Trazer o salário pro Princeless Bank
 
 Etapa 3, reabrir a entrada
