@@ -82,9 +82,8 @@ primeiro diferencial que o benchmarking lista para o LuminaPay, o concorrente qu
 30% de share no mesmo período em que caímos. Três decisões de desenho:
 
 - Prêmio por contagem, não por valor. Faixas em 5 e 10 compras no mês, com teto. É a mesma métrica
-  que usamos para medir o problema (transações por cliente ativo, hoje 7,1), e é a única base
-  confiável que temos: o valor da compra na base é sorteado entre R$ 0 e R$ 1.200, não observado,
-  então não há como calibrar faixa de gasto.
+  que usamos para medir o problema (transações por cliente ativo, hoje 7,1), o valor da compra
+  na base é sorteado entre R$ 0 e R$ 1.200, não observado, então não há como calibrar faixa de gasto.
 - Vale para débito. A maior parte dos cartões da base é débito com limite zero. Um benefício
   exclusivo de crédito não alcança quem precisamos alcançar.
 - O crédito cai no saldo da conta, não em pontos. Programa de pontos exige que o cliente entre num
@@ -95,10 +94,6 @@ Quem paga a conta. Compra no cartão gera interchange para o emissor, PIX não g
 migrada de PIX para cartão cria receita que hoje não existe, e é ela que financia o cashback. Isso
 também dá o teto natural da oferta: o incentivo não pode custar mais do que o interchange que a
 migração gera.
-
-Como saber se funcionou. Rodar com grupo de controle. Metade da base elegível recebe a oferta,
-metade não, e a leitura é transações por cliente ativo por trimestre entre os dois grupos. Sem
-holdout, qualquer alta vai ser creditada à campanha mesmo que fosse acontecer sozinha.
 
 Se pegarmos o Papaya bank (42,7% de principalidade) e LuminaPay (37,4%) lideram exatamente essa métrica
 no benchmarking. Principalidade é o que sustenta share.
@@ -153,10 +148,6 @@ o terreno onde o Aurora Bank saiu de 6% para 14% de share.
 | 3.3 | Investimento que vira limite de cartão | Amarra os dois produtos |
 | 3.4 | Cross-sell sobre os 695 sem investimento | Clientes que usam cartão mas não investem. |
 
-Potencial estimado. Se os 255 clientes convertessem à taxa da base (58%), seriam 147 novos
-investidores. Ao patrimônio mediano por investidor (R$ 52.122), isso representa ~R$ 7,7 milhões
-de captação, ordem de grandeza, não previsão. É a maior relação retorno/esforço de toda a lista.
-
 ---
 
 ### Frente 4 · Higiene competitiva 
@@ -191,20 +182,17 @@ funil não consegue corrigi-lo.
 
 ## 5. Priorização
 
-| Frente | Ação | Impacto | Esforço | Prazo | Prioridade |
-|---|---|---|---|---|---|
-| 2 | Destravar a emissão de cartão |  Alto |  Baixo | 30 dias | **1ª** |
-| 3 | Recadastramento dos 255 |  Médio |  Baixo | 90 dias | **2ª** |
-| 1 | Piloto de cashback por frequência |  Alto |  Médio | 90 dias | **3ª** |
-| 1 | Programa de domicílio de renda |  Alto |  Alto | 12 meses | **4ª** |
-| 2 | Abertura de conta digital |  Alto |  Médio | 6 meses | **5ª** |
-| 3 | Investimento vira limite |  Alto | Médio | 9 meses | **6ª** |
-| 2 | Ativação assistida em 30 dias |  Médio |  Baixo | 90 dias | **7ª** |
-| 4 | Investigação técnica do PIX |  Médio |  Médio | 6 meses | **8ª** |
-| 5 | Contrato de dados |  Médio |  Médio | contínuo | **paralelo** |
-
-As duas primeiras são alto retorno e baixo esforço. 
-A Frente 1 é a que resolve a raiz, mas é a mais cara e a mais lenta.
+| Frente | Ação | Impacto | Esforço | Prioridade |
+|---|---|---|---|---|
+| 2 | Destravar a emissão de cartão |  Alto |  Baixo | **1ª** |
+| 3 | Recadastramento dos 255 |  Médio |  Baixo  | **2ª** |
+| 1 | Piloto de cashback por frequência |  Alto |  Médio | **3ª** |
+| 1 | Programa de domicílio de renda |  Alto |  Alto |  **4ª** |
+| 2 | Abertura de conta digital |  Alto |  Médio |  **5ª** |
+| 3 | Investimento vira limite |  Alto | Médio |  **6ª** |
+| 2 | Ativação assistida em 30 dias |  Médio |  Baixo | **7ª** |
+| 4 | Investigação técnica do PIX |  Médio |  Médio |**8ª** |
+| 5 | Contrato de dados |  Médio |  Médio | **paralelo** |
 
 ---
 
